@@ -1,0 +1,84 @@
+header{
+    background-color: #FF1D58;
+    text-align: center;
+}
+
+header > h1{
+    font: inherit;
+    font-weight: 900;
+    font-variant: small-caps;
+    margin-top: 1px;
+    padding: 1%;
+    font-size: 40px;
+}
+
+body{
+    background-color: #0049B7;
+}
+
+.todo.show{
+    display: block;
+    animation: fade-slide-in 0.9s ease-out forwards;
+}
+
+.todo{
+    height: 180px;
+    width: 250px;
+    margin: 20px auto;
+    display: none;
+    box-shadow: 20em;
+    background-color: #FFF685;
+    text-align: center;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.26);
+}
+
+.add-button{
+    text-align: center;
+    background-color: #F75990;
+    padding: 2%;
+}
+
+button{
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid #00329e;
+    background: #00329e;
+    color: white;
+    border-radius: 6px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.26);
+    cursor: pointer;
+    margin: 0 0.5rem;
+}
+
+input{
+    font: inherit;
+    border-radius: 4px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.26);
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+ul{
+    align-items: center;
+    margin-top: 40px;
+}
+
+li{
+    background-color: #FF1D58;
+    width: 300px;
+}
+
+.new-element {
+    margin:10px auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+    display: flex;
+  }
+
+h2{
+    text-align: center;
+}
+
+.delete{
+    text-align: center;
+}
